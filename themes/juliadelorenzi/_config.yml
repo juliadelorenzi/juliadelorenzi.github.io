@@ -1,0 +1,28 @@
+site_name: Julia Delorenzi
+site_url: https://juliadelorenzi.github.io
+
+home:
+  title: Página Inicial
+  description: Em Português
+
+menu:
+  social:
+    instagram:
+      url: https://www.instagram.com/ju.delorenzi
+      svg: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><use href="#instagram" /></svg>
+    facebook:
+      url: https://www.facebook.com/delorenzijulia
+      svg: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><use href="#facebook" /></svg>
+    twitter:
+      url: https://twitter.com/delorenzijulia
+      svg: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><use href="#twitter" /></svg>
+    linkedin:
+      url: https://www.linkedin.com/in/juliadelorenzi
+      svg: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><use href="#linkedin" /></svg>
+    github:
+      url: https://github.com/juliadelorenzi
+      svg: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><use href="#github" /></svg>
+
+# Miscellaneous
+google_analytics: XXXXX
+favicon: /favicon.png
