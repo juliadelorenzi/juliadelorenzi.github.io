@@ -1,0 +1,14 @@
+.mainNav-list {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap row;
+  justify-content: space-between;
+}
+
+.mainNav-item {
+  margin-left: 10px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}

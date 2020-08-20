@@ -1,0 +1,40 @@
+// Page
+///
+html {
+  overflow-y: scroll;
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+}
+
+.wrapper {
+  min-height: 100vh;
+  overflow: hidden;
+  width: 100%;
+}
+
+.content {
+  margin: 0;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: $screen-desktop;
+  overflow: inherit;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  @media (min-width: $screen-desktop) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

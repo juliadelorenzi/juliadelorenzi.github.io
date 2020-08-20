@@ -1,2 +1,15 @@
 home:
-  title: Bem-vindo
+  content: Conteúdo
+
+nav:
+  main:
+    home:
+      url: /
+      title: Página Inicial
+  lang:
+    portuguese:
+      url: /
+      title: Português
+    english:
+      url: /en
+      title: Inglês

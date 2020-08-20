@@ -1,0 +1,14 @@
+.socialNav-list {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap row;
+  justify-content: space-between;
+}
+
+.socialNav-item {
+  margin-left: 10px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}

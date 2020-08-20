@@ -8,18 +8,23 @@ home:
 menu:
   social:
     instagram:
+      title: Instagram
       url: https://www.instagram.com/ju.delorenzi
       svg: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><use href="#instagram" /></svg>
     facebook:
+      title: Facebook
       url: https://www.facebook.com/delorenzijulia
       svg: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><use href="#facebook" /></svg>
     twitter:
+      title: Twitter
       url: https://twitter.com/delorenzijulia
       svg: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><use href="#twitter" /></svg>
     linkedin:
+      title: LinkedIn
       url: https://www.linkedin.com/in/juliadelorenzi
       svg: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><use href="#linkedin" /></svg>
     github:
+      title: Github
       url: https://github.com/juliadelorenzi
       svg: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><use href="#github" /></svg>
 

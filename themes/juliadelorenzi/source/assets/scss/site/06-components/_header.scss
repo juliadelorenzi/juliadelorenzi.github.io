@@ -1,0 +1,10 @@
+.header {
+  padding: 10px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap row;
+  justify-content: space-between;
+}
