@@ -2,10 +2,16 @@
   <meta itemprop="about" content="Menu de idiomas">
   <ul class="langNav-list" aria-label="Menu de idiomas">
     <li class="langNav-item">
-      <a class="langNav-link" href="<%= __('nav.lang.portuguese.url') %>" itemprop="url"><span itemprop="name"><%= __('nav.lang.portuguese.title') %></span></a>
+      <a class="langNav-link <%= page.lang === 'pt-br' ? 'on' : '' %>" href="<%= __('nav.lang.portuguese.url') %>" itemprop="url">
+        <svg class="langNav-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><use href="#brazil" /></svg>
+        <span class="hide" itemprop="name"><%= __('nav.lang.portuguese.title') %></span>
+      </a>
     </li>
     <li class="langNav-item">
-      <a class="langNav-link" href="<%= __('nav.lang.english.url') %>" itemprop="url"><span itemprop="name"><%= __('nav.lang.english.title') %></span></a>
+      <a class="langNav-link <%= page.lang === 'en-us' ? 'on' : '' %>" href="<%= __('nav.lang.english.url') %>" itemprop="url">
+        <svg class="langNav-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><use href="#united-states" /></svg>
+        <span class="hide" itemprop="name"><%= __('nav.lang.english.title') %></span>
+      </a>
     </li>
   </ul>
 </nav>

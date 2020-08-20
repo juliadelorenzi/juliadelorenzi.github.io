@@ -2,28 +2,21 @@
   Variables
 ========================================================================== */
 
-/* Main Nav
+/* Breadcrumb
 ========================================================================== */
-.mainNav {
-  font-size: 1rem;
-  padding: 20px 0 30px;
-
-  @media (min-width: $screen-desktop) {
-    padding: 0 0 30px;
-  }
+.breadcrumb {
+  margin-bottom: 10px;
 }
 
-.mainNav-list {
+.breadcrumb-list {
   display: flex;
   flex-direction: row;
-  flex-flow: wrap row;
-  justify-content: space-between;
 }
 
-.mainNav-item {
-  margin-left: 10px;
+.breadcrumb-item {
+  padding-left: 10px;
 
   &:first-child {
-    margin-left: 0;
+    padding-left: 0;
   }
 }
